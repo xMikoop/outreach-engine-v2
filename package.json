@@ -1,0 +1,21 @@
+{
+  "name": "ai-outreach-engine-v2",
+  "version": "1.0.0",
+  "description": "Scalable Node.js engine for AI-powered cold email personalization.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "send": "node src/sender.js",
+    "ui": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.6",
+    "openai": "^4.28.0"
+  }
+}
