@@ -23,6 +23,9 @@ By building this in code, I achieved:
 ### 🛠️ Tech Stack
 - **Environment:** Node.js (ES Modules)
 - **AI Integration:** Official `openai` SDK
+- **Web Dashboard:** `express`, `multer` (CSV upload), `cors`
+- **Real-time Logs:** Server-Sent Events (SSE) for live terminal output streaming
+- **Email Dispatch:** `nodemailer` with Google Workspace SMTP rotation
 - **Data Handling:** `csv-parser`, native `fs` streams for memory-efficient processing of large files.
 
 ### 🚀 How it Works (Phase 1: Enrichment)
